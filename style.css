@@ -1,0 +1,131 @@
+main {
+  background-color: #1E1E1E;
+  background-image: url("/img/renderbg.png");
+  background-repeat: no-repeat;
+  background-position: top right;
+  height: 100vh;
+  color: #fff;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #fff;
+}
+
+.container {
+  max-width: 1140px;
+  padding: 0 10%;
+}
+
+.logo {
+  display: block;
+  padding-top: 68px;
+}
+
+.logo img {
+  display: block;
+  max-width: 530px;
+}
+
+.contactsblock {
+  margin-top: 80px;
+}
+
+h1 {
+  font-size: 60px;
+}
+
+.description {
+  font-size: 28px;
+}
+
+.contactlink {
+  max-width: 200px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 25px;
+}
+.contactlink img {
+  display: block;
+  margin-right: 10px;
+  width: 45px;
+  height: 45px;
+}
+
+@media screen and (max-width: 960px) {
+  main {
+    background-color: #1E1E1E;
+    background-image: url("/img/mobilebg.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    color: #fff;
+    text-align: center;
+  }
+  .container {
+    padding: 0 5%;
+  }
+  .logo {
+    padding-top: 40px;
+  }
+  .logo img {
+    max-width: 228px;
+    margin: 0 auto;
+  }
+  .contactsblock {
+    margin-top: 80px;
+  }
+  h1 {
+    font-size: 23px;
+    margin-top: 50px;
+  }
+  .description {
+    display: block;
+    font-size: 19px;
+    margin-top: 350px;
+  }
+  .contactsblock {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .contactlink {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    text-align: center;
+    margin-bottom: 25px;
+  }
+  .contactlink img {
+    display: block;
+    margin-right: 10px;
+    width: 45px;
+    height: 45px;
+  }
+}
